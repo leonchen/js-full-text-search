@@ -1,0 +1,27 @@
+{
+  "name": "js-full-text-search",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf lib/* && tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonchen/js-full-text-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonchen/js-full-text-search/issues"
+  },
+  "homepage": "https://github.com/leonchen/js-full-text-search#readme",
+  "dependencies": {
+    "lunr": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/lunr": "^2.1.5",
+    "typescript": "^2.8.3"
+  }
+}
